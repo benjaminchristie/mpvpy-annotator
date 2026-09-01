@@ -1,7 +1,10 @@
 # video_annotator
 
+> [!CAUTION]
+> *This code was mostly written by Claude. Use at your own risk, and do not use it in production.*
+
 Segment a folder of demonstration videos (e.g. robot task videos) into a
-sequence of **non-overlapping, labeled skills/subtasks**, using `mpv` for
+sequence of **non-overlapping** labels, using `mpv` for
 playback and a popup terminal window for typing each label.
 
 Example: a video of a robot might get split into two contiguous segments,
